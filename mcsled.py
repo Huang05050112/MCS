@@ -8,7 +8,7 @@ import sys
 import time
 import httplib, urllib
 import json
-import RPI.GPIO as GPIO
+import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(4,GPIO.OUT)
 
